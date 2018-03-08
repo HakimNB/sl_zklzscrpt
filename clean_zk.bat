@@ -10,6 +10,8 @@ CALL ConvertAmcZooQuestsData.bat
 popd
 pushd C:\zk\client\Match3Machine\proj.win32
 rd /s /q "Debug"
+rd /s /q "ipch"
+rd /s /q "win32_external"
 rm -rf *.opensdf
 rm -rf *.sdf
 popd
