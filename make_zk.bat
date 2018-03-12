@@ -34,3 +34,7 @@ popd
 pushd C:\zk\client\Match3Machine\proj.win32
 cmake-converter -p MatchThreeMachine.vcxproj
 popd
+
+REM lib-asyn-script
+REM libKtx
+REM libJsonCpp
