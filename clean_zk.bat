@@ -17,6 +17,12 @@ rd /s /q "win32_external"
 rm -rf *.opensdf
 rm -rf *.sdf
 popd
+pushd C:\zk\client\Match3Machine\proj.androidstudio\CandySurver
+rd /s /q "build"
+popd
+pushd C:\zk\client\vendors\IGGSDK_for_Android_1.4.0\proj\IGGCommonLibs
+rd /s /q "build"
+popd
 pushd C:\zk\tools\publish_git
 CALL copy_ALL_resource_to_work_dir.bat
 popd
