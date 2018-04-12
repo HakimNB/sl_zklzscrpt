@@ -4,11 +4,7 @@ CALL copy_ALL_resource_to_work_dir.bat
 popd
 pushd C:\zk\tools\MasterDataConverter
 CALL ConvertAmcMasterData.bat
-CALL ConvertAmcZooCutsceneData.bat
-CALL ConvertAmcZooDialogsData.bat
-CALL ConvertAmcZooNPCData.bat
-CALL ConvertAmcZooQuestsData.bat
-CALL ConvertAmcZooWayPointData.bat
+CALL ConvertZooConfig_All.bat
 popd
 pushd C:\zk\client\Match3Machine\proj.win32
 rd /s /q "Debug"
