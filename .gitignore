@@ -1,4 +1,5 @@
 tropicats/
 tropicats.*
 
-dailyreflog.txt
+zk/dailyreflog.txt
+zk/reflog.txt
