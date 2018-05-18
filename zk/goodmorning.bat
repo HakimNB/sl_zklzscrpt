@@ -13,4 +13,6 @@ git fetch glee
 git fetch origin
 git rebase origin/develop --committer-date-is-author-date
 popd
+REM D:\lazy_scripts\zk
+CALL clean_zk.bat
 popd
