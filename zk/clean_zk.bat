@@ -1,4 +1,8 @@
 pushd C:\zk\tools\publish_git
+REM remove all files inside app_data
+del /S /F /Q "app_data"
+REM remove the directory itself
+rmdir /S /Q "app_data"
 CALL clean_android_studio_build.bat
 CALL copy_ALL_resource_to_work_dir.bat
 popd
