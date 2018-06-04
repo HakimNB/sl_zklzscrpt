@@ -1,0 +1,10 @@
+How to setup git-svn:
+1. open up .git/config file and add in svn setting
+===============================================================
+[svn-remote "svn"]
+	url = http://gboxsvn.iggcn.com/repos/Candy_Surfer/trunk/AMC
+	fetch = :refs/remotes/gitsvn/master
+===============================================================
+2. run "git svn fetch", and kill the process (Ctrl+C) as soon as there is a single revision fetched
+3. open up .git/refs/remotes/gitsvn/master and change the SHA-1 to the latest sync-ed revision
+4. run "git svn fetch" again, you should see that all the previous svn revision immediately synced to the git (i.e: it will not re-fetch the entire svn history)
