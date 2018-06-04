@@ -14,6 +14,11 @@ git fetch origin
 git update-ref refs/remotes/gitsvn/master refs/remotes/origin/svn
 git update-ref refs/heads/svn refs/remotes/origin/svn
 git svn fetch
+git checkout svn
+git svn rebase
+git push glee svn:svn
+git push origin svn:svn
+git checkout hakim
 git rebase origin/svn --committer-date-is-author-date
 REM git rebase origin/develop --committer-date-is-author-date
 popd
