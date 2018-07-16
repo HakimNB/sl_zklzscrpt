@@ -18,6 +18,12 @@ git checkout svn
 git svn rebase
 git push glee svn:svn
 git push origin svn:svn
+REM start - do this for all available svn-branches
+git checkout test
+git svn rebase
+git push glee test:test
+git push origin test:test
+REM end - do this for all available svn-branches
 git checkout hakim
 git rebase origin/svn --committer-date-is-author-date
 REM git rebase origin/develop --committer-date-is-author-date
