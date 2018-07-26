@@ -1,5 +1,6 @@
 call ..\config.bat
 pushd %ZKDIR%\server
+start .\Bin\#Redis-x64-3.2.100\redis-server.exe
 start .\Bin\Debug64\UserServer\UserServer.exe
 start .\Bin\Debug64\LogServer\LogServer.exe
 start .\Bin\Debug64\SocialServer\SocialServer.exe
