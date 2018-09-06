@@ -15,6 +15,7 @@ pushd %ZKDIR%\client\Match3Machine\proj.win32
 rd /s /q "Debug"
 rd /s /q "ipch"
 rd /s /q "win32_external"
+mkdir "win32_external"
 rm -rf *.opensdf
 rm -rf *.sdf
 popd
