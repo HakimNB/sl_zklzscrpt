@@ -302,7 +302,7 @@ CREATE TABLE `tbl_search_player_data` (
   UNIQUE KEY `iggid` (`iggid`),
   KEY `hex_name` (`hex_name`),
   KEY `friend` (`is_online`,`main_stage_id`,`last_login_time`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -449,7 +449,7 @@ CREATE TABLE `tbl_match_game_bug_report` (
   `create_unix_time` int(11) NOT NULL,
   `file_name` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -466,6 +466,21 @@ CREATE TABLE `tbl_player_attr_data` (
   PRIMARY KEY (`iggid`),
   KEY `last_update_time` (`last_update_time`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `tbl_player_update_icon_record`
+--
+
+DROP TABLE IF EXISTS `tbl_player_update_icon_record`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tbl_player_update_icon_record` (
+  `seq` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `iggid` bigint(20) NOT NULL DEFAULT '0',
+  `update_icon_unix_time` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`seq`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -544,7 +559,7 @@ CREATE TABLE `tbl_login_event_log` (
   `iggid` bigint(20) NOT NULL,
   `logout_reason` tinyint(4) unsigned NOT NULL,
   PRIMARY KEY (`seq`)
-) ENGINE=InnoDB AUTO_INCREMENT=112 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=164 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -556,4 +571,4 @@ CREATE TABLE `tbl_login_event_log` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-09-12 15:40:20
+-- Dump completed on 2018-09-18 12:19:31
