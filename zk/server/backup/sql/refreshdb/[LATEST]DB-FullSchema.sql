@@ -408,6 +408,27 @@ CREATE TABLE `tbl_daily_login_bunus_info` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Table structure for table `tbl_event_info`
+--
+
+DROP TABLE IF EXISTS `tbl_event_info`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tbl_event_info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `enabled` tinyint(4) NOT NULL DEFAULT '1',
+  `event_type` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `priority` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `sp_flag` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `message` varchar(255) NOT NULL DEFAULT '',
+  `start_time` bigint(20) NOT NULL DEFAULT '0',
+  `end_time` bigint(20) NOT NULL DEFAULT '0',
+  `last_update_time` bigint(20) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
 -- Table structure for table `tbl_item_shop`
 --
 
@@ -480,7 +501,7 @@ CREATE TABLE `tbl_player_update_icon_record` (
   `iggid` bigint(20) NOT NULL DEFAULT '0',
   `update_icon_unix_time` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`seq`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -559,7 +580,7 @@ CREATE TABLE `tbl_login_event_log` (
   `iggid` bigint(20) NOT NULL,
   `logout_reason` tinyint(4) unsigned NOT NULL,
   PRIMARY KEY (`seq`)
-) ENGINE=InnoDB AUTO_INCREMENT=164 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=165 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -571,4 +592,4 @@ CREATE TABLE `tbl_login_event_log` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-09-18 12:19:31
+-- Dump completed on 2018-09-20 18:48:14
