@@ -302,7 +302,7 @@ CREATE TABLE `tbl_search_player_data` (
   UNIQUE KEY `iggid` (`iggid`),
   KEY `hex_name` (`hex_name`),
   KEY `friend` (`is_online`,`main_stage_id`,`last_login_time`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3012 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -408,6 +408,23 @@ CREATE TABLE `tbl_daily_login_bunus_info` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Table structure for table `tbl_event_highlight_info`
+--
+
+DROP TABLE IF EXISTS `tbl_event_highlight_info`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tbl_event_highlight_info` (
+  `id` int(11) NOT NULL,
+  `enabled` tinyint(4) NOT NULL DEFAULT '1',
+  `image_url` varchar(255) NOT NULL DEFAULT '',
+  `ref_page_url` varchar(255) NOT NULL DEFAULT '',
+  `last_update_time` bigint(20) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
 -- Table structure for table `tbl_event_info`
 --
 
@@ -421,11 +438,12 @@ CREATE TABLE `tbl_event_info` (
   `priority` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `sp_flag` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `message` varchar(255) NOT NULL DEFAULT '',
+  `ref_page_url` varchar(255) NOT NULL DEFAULT '',
   `start_time` bigint(20) NOT NULL DEFAULT '0',
   `end_time` bigint(20) NOT NULL DEFAULT '0',
   `last_update_time` bigint(20) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -440,13 +458,13 @@ CREATE TABLE `tbl_item_shop` (
   `enabled` tinyint(4) unsigned NOT NULL DEFAULT '1',
   `category` tinyint(4) unsigned NOT NULL DEFAULT '0',
   `item1_id` smallint(5) unsigned NOT NULL DEFAULT '0',
-  `item1_num` tinyint(4) unsigned NOT NULL DEFAULT '0',
+  `item1_num` int(11) NOT NULL DEFAULT '0',
   `item2_id` smallint(5) unsigned NOT NULL DEFAULT '0',
-  `item2_num` tinyint(4) unsigned NOT NULL DEFAULT '0',
+  `item2_num` int(11) NOT NULL DEFAULT '0',
   `item3_id` smallint(5) unsigned NOT NULL DEFAULT '0',
-  `item3_num` tinyint(4) unsigned NOT NULL DEFAULT '0',
-  `price_coin` int(11) NOT NULL DEFAULT '0',
-  `price_diamond` int(11) NOT NULL DEFAULT '0',
+  `item3_num` int(11) NOT NULL DEFAULT '0',
+  `price_coin` double NOT NULL DEFAULT '0',
+  `price_diamond` double NOT NULL DEFAULT '0',
   `start_time` bigint(20) NOT NULL DEFAULT '0',
   `end_time` bigint(20) NOT NULL DEFAULT '0',
   `image_path` varchar(200) NOT NULL DEFAULT '',
@@ -454,7 +472,7 @@ CREATE TABLE `tbl_item_shop` (
   `last_update_time` bigint(20) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `last_update_time` (`last_update_time`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -580,7 +598,7 @@ CREATE TABLE `tbl_login_event_log` (
   `iggid` bigint(20) NOT NULL,
   `logout_reason` tinyint(4) unsigned NOT NULL,
   PRIMARY KEY (`seq`)
-) ENGINE=InnoDB AUTO_INCREMENT=165 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=21600 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -592,4 +610,4 @@ CREATE TABLE `tbl_login_event_log` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-09-20 18:48:14
+-- Dump completed on 2018-10-23 16:08:37
