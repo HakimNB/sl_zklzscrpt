@@ -79,8 +79,9 @@ CREATE TABLE `tbl_player_data` (
   `name` varchar(30) NOT NULL,
   `birthday` int(11) NOT NULL DEFAULT '0',
   `icon_index` tinyint(4) NOT NULL DEFAULT '0',
+  `user_flag` int(11) NOT NULL DEFAULT '0',
   `accept_friend_flag` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `diamond` bigint(20) NOT NULL DEFAULT '0',
+  `coin` bigint(20) NOT NULL DEFAULT '0',
   `stamina` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `star` smallint(6) NOT NULL DEFAULT '0',
   `last_recharge_stamina_time` bigint(20) NOT NULL DEFAULT '0',
@@ -240,7 +241,8 @@ CREATE TABLE `tbl_global_mail_data` (
   `mail_id` int(10) unsigned NOT NULL,
   `sending_time` bigint(20) NOT NULL,
   `expired_time` bigint(20) NOT NULL,
-  `message` varchar(100) NOT NULL,
+  `subject` varchar(50) NOT NULL DEFAULT '',
+  `message` varchar(150) NOT NULL DEFAULT '',
   `attachment_type` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `attachment_id` smallint(5) unsigned NOT NULL DEFAULT '0',
   `attachment_num` int(11) NOT NULL DEFAULT '0',
@@ -261,7 +263,8 @@ CREATE TABLE `tbl_player_mail_data` (
   `mail_id` int(10) unsigned NOT NULL,
   `sending_time` bigint(20) NOT NULL,
   `expired_time` bigint(20) NOT NULL,
-  `message` varchar(100) NOT NULL DEFAULT '',
+  `subject` varchar(50) NOT NULL DEFAULT '',
+  `message` varchar(150) NOT NULL DEFAULT '',
   `attachment_type` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `attachment_id` smallint(5) unsigned NOT NULL DEFAULT '0',
   `attachment_num` int(11) NOT NULL DEFAULT '0',
@@ -302,7 +305,7 @@ CREATE TABLE `tbl_search_player_data` (
   UNIQUE KEY `iggid` (`iggid`),
   KEY `hex_name` (`hex_name`),
   KEY `friend` (`is_online`,`main_stage_id`,`last_login_time`)
-) ENGINE=InnoDB AUTO_INCREMENT=3012 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3011 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -464,7 +467,6 @@ CREATE TABLE `tbl_item_shop` (
   `item3_id` smallint(5) unsigned NOT NULL DEFAULT '0',
   `item3_num` int(11) NOT NULL DEFAULT '0',
   `price_coin` double NOT NULL DEFAULT '0',
-  `price_diamond` double NOT NULL DEFAULT '0',
   `start_time` bigint(20) NOT NULL DEFAULT '0',
   `end_time` bigint(20) NOT NULL DEFAULT '0',
   `image_path` varchar(200) NOT NULL DEFAULT '',
@@ -551,12 +553,13 @@ CREATE TABLE `tbl_unhandled_mail_data` (
   `receiver_list` varchar(200) NOT NULL,
   `sending_time` bigint(20) NOT NULL DEFAULT '0',
   `expired_time` bigint(20) NOT NULL DEFAULT '0',
-  `message` varchar(100) NOT NULL,
+  `subject` varchar(50) NOT NULL DEFAULT '',
+  `message` varchar(150) NOT NULL DEFAULT '',
   `attachment_type` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `attachment_id` smallint(5) unsigned NOT NULL DEFAULT '0',
   `attachment_num` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`seq`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -598,7 +601,7 @@ CREATE TABLE `tbl_login_event_log` (
   `iggid` bigint(20) NOT NULL,
   `logout_reason` tinyint(4) unsigned NOT NULL,
   PRIMARY KEY (`seq`)
-) ENGINE=InnoDB AUTO_INCREMENT=21600 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=21620 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -610,4 +613,4 @@ CREATE TABLE `tbl_login_event_log` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-10-23 16:08:37
+-- Dump completed on 2018-10-25 17:54:34
