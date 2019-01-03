@@ -1,0 +1,24 @@
+181114:
+=======
+060c235e0aed0487dfd8ec63a2dc462f3bbc1bea 
+e1c59d28912cc87fa02b6e134d4cdb3702e2e993 
+b6d7aefb0af2855f219e522ac71e0f2f478c6b86
+c5ed86f8ca097216dd32087fecea6ad48e701c34
+
+https://stackoverflow.com/questions/37738346/how-can-i-change-the-default-particle-in-unity-3d
+https://answers.unity.com/questions/411601/change-the-color-of-a-material-for-only-one-object.html
+
+TODO:
+https://github.com/bbbscarter/UberLogger
+https://forum.unity.com/threads/unity-ecs-and-job-system-in-production.561229/
+
+Msg from IGG Unity chat group
+Client sharing information related
+At the end of the year, we will organize the group folders from the beginning of the day (2018/12/19). The specific measures are as follows.
+◆All sharing materials before 2018/12/18(2) will be deleted from the group folder and moved to the Egnyte network disk. You can click the Egnyte link to browse. (link: https://igg.egnyte.com/fl/8MnHTlzfRQ; PW: 7unVq9wP)
+◆All sharing materials after 2018/12/18(2) will still be uploaded to the group folder.
+PS: If you are unable to access the Egnyte network disk in Taiwan or other branch offices, please provide [Real Name + EIP User Name] to the corresponding interface person.
+◇Taiwan: Si Shunyu @PMO-司顺玮
+◇Other branches: Lin Huiling@PMO-林惠玲
+ 
+As of 2018/12/21 (five), we will summarize the list and ask the technical department to open the network disk. @all members

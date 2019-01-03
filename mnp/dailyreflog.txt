@@ -1,0 +1,12 @@
+74182727b9f4f0fd9d5fe231c85463a1621661cc 190103 => xls to scriptableobj importer
+
+https://stackoverflow.com/questions/37738346/how-can-i-change-the-default-particle-in-unity-3d
+https://answers.unity.com/questions/411601/change-the-color-of-a-material-for-only-one-object.html
+
+TODO:
+https://github.com/bbbscarter/UberLogger
+https://forum.unity.com/threads/unity-ecs-and-job-system-in-production.561229/
+
+STD:
+====
+https://unitylist.com/p/28t/Unity-excel-importer

@@ -1,5 +1,7 @@
 tropicats/
 tropicats.*
 
-zk/dailyreflog.txt
-zk/reflog.txt
+#zk/dailyreflog.txt
+#zk/reflog.txt
+
+#dht/today.txt

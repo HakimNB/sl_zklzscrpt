@@ -1,0 +1,538 @@
+f32ba5df0a2d26bedddc1305177579d7076fa863 180130
+
+dfa7e29a24f237abd612ede6233bebb734b8e498 180212
+2045965b7a1c45d1ec4a02125d29fdfd65c9b30e 180312
+3ea21e65d20d6a62f23344933d9761c6918d5512 180312 - pushed 0fa7028..7cad502 (7 commits)
+5488712b5721692e61f52c4a2b49e1ac437453c2 180313
+b2587b2c123cc79ee8c6206b60fb36d13b2f9e22 180314
+9efbe20f52da156ea1d790a4902a3e9b6342c6cb 180315
+c75be2dd4fafca241661a7af1e7d629a9a9118d6 180316
+
+1989b7e05239a01df2c223400b5ac5776caf073f 180319
+e838edb0d11662b63210cd1eb49ed2a191c99158 180320
+dbecbd423e92219ecb7c8192d62d37f410792e2c 180323
+
+88cf44df61dc5274a22c23174e27b273a9097bc5 180326
+1de549449284b5355e42ed87f2bb16f8b8b062c2 180327
+93f89fab8815631f21ef9aa2f3566164ad49568c 180328
+c175b483632ba4667201bc1ff25baea31f8b3795 180329
+
+60ad2c6b3769d7948c34c31082229027bd4c8c22 180402
+8b0d21cda3a9a0ea6fd3742bbc73eab4eeabda74 180403
+9a5f2dc139e4cc9d7776e4ed6945a88c2b0a1f99 180404
+eaaaa908844ce3754b8c6251093a0b48675c36c9 180405
+392a1ae7163445a916cbb27796954903a27e60da 180406
+
+8610ca367e270560321e8fe8334182c5eeffd43b 180409
+145648d9b3097b1e811cf4b52535ae98217f60c6 180410
+6e217ea859b12b5d18aebb4bad9d6c2290666437 180410 => Ikhwan's readjustScrollPos => 53b285f0504214d1c19710fd51c4a4b8b2e6f8fa
+325113bad1056ba8090f6dd6f37c7c0a3bd04cb4 180411
+0ed9bb2155090e5bf62809a4383b086084a4f2f3 180411 change cutscene id
+f6b590ed22f53d0aee989c78f3ffad9df354905d 180412
+d29bd026cb1a396a7f71330c6870a4964b708b2b 180413
+
+e6a60a2ce4070c6d5e632818703de81b1c8634bb 180416
+cedcfaa5d209cf1a523826f0ff580cd5c1e4d294 180417
+2a4e7a35c6b28fbb055b45cb43bc76081b8950aa 180418
+8fe234ac757318fdbf0971fe0c9da30fb53b43cb 180419
+2abcc45558e62abcae3cb8ab2c892067fb49f660 180420
+
+b45aae94f0534674555bcd1e4c930d201ecf8211 180423
+0bf98421fb9bacd895b84861016c186fc4940539 180424
+8b70b1c862c5b580221b50c572c5df27a1237cac 180424 => PRE_ACT and POST_ACT on cutscene
+e8df8deeb5e42574bc49ff4ce9698c749ee3ef5b 180425
+543c331f425955d86a3a1ec1375e2e9c6aa5bae6 180425 => to push [c39406b] -> [672921f]
+14ceb7cdc34f578b36a2ad86bc4a09abfc5f9dd6 180425
+a32c92a5c7bbee06011e63a42dcabc57fbf4d4e5 180426
+94b8740e2eaff9e52d50bc1f293df91a968be5dd 180427 => 12c4380c6f6fb40a7deb470ee8da227962775139
+
+704be222623e4a1cad15b62b0f2cd0f7a4bb5038 180430
+e024a1b8a83747385a4e75a17db0cd47974cee31 180502 => e10d6ff [180503]
+25e4c49e84a1e6c9ad471bc36ffab0e45233534d 180504
+
+77be3dc291c5e5b1b55d56c0973cffec2aad79ce 180507 => circle out/in still flickering
+353d6ae18195ee32ff8536343d5d2da9e6543a0a 180508 => camera bound wip, no touch end on panel
+b19324ea267e97b77d546a9180dcfc38a88ce299 180508 => camera fix touch end not registerd on panel
+8f763e916df408712a7a95e84c2a0e574f09b575 180508 => the submitted fixed
+a9a4f4ddbab7fa821312c90a9a51b68a952080d6 180509 => camera outer bound [st]
+8561eaa771275c7863f05b477ad5345b81e77ae3 180510 => cam outer bound [end]
+1b1ff55320bb70aa525496f0b7a1e402d951765b 180510 => pushing
+3c981b67c24bcd6e9a1c888bc9f37233e3b4fcb7 180511 => pushed [ZK-1153] [ZK-1154]
+
+2fc37e7f07813534548b0abb8642dce5d0f7cff5 180514
+3fd0b5eed5ee7f766cd9a478c870e50ee4c02dcd 180515 => fade out/in, circle out/in with white color
+97b77b28642ca92f3619d7d76cf91dad86b27df6 180516
+221d4a8a83eb7446e874bac5ebdbbaf28ea37575 180517
+a990461b051980a6315f622a90b1be25ec986614 180518 => newday
+
+7d038139f698f4c94c5f64fee7c12932df0ead67 180521
+41ec4d57fc3a22da22915e9a90ea8b23fab047da 180523
+019a1da6166b660002e4d2d6c8a0d29a2cdacdea 180524
+49af5078488b06a3f3360e873ce4190671b09998 180525
+
+843fb26b1c958f01e699e6dea77926a14a4bcc96 180528
+169a8af89aacc24f84a3f1f5c1cd2f9e5dcd2e66 180530
+950e3ac6ae9cda69be470ce31e4ff99243ec84e3 180531
+05413c763be00f695bcda2e60ded5f55a64aa01a 180601
+
+=============================================== => end of git, migrated to svn
+ff7697e90cdeeb3d4802037711bd4d2a032bc737 180604 => svn first commit
+7f8305e31c3a0fcf70c71ea19e1356e22ad5124d 180605 => camera follow npc with offset
+5000cf0daf1b6773ca067e48a7a4b80b32a31ffb 180606 => camera move with shake
+23b1564521acce3666dd629185d327b01be1456a 180607
+4f11542fbaec002e2378f60f7a0cf9cdde0961b0 180608 => dialog box and bubble entry/exit animations
+
+6530a63849b9bb63bc3779d33d337d21d9568420 180611
+06b2b3c97a4412902be251bb61dc6baef67a424a 180612
+88a20f290180cacce64dc694c40498843f5ae624 180613
+bac1d34f8d568cb5aab7247121cd5683840fe9ab 180614
+
+e072b4ce1dc6c3bed20bc76a0737a1a45a55d76e 180618
+ba5bf7dec4e91033aef98050ba3fbfd332b79368 180619
+a3bdec4f588c9382ed6fbb0588b12e645313e50c 180620
+60f3b35da9514137b12f7690f31dc846509e37e1 180621
+
+a98854a1a4eb56cd610c4e59bc5a6661fb976e72 180625
+bdf3af580d7b22ac8d382f5d00279b8c29f51045 180626
+83fc8339f82fabd0cb0e710c74eac3dae3fef83e 180627 => last stash border for debugging
+37f3edb2d188dbb86314359ebaa0db4f1f6e44f3 180628 => fix bubble close anim crash
+04c9ef7b3d799ff15faa45a8c0424388d823c2ee 180629 => force line break in rich label
+
+a552fd1406829a5d7da6576274eb800a92a364e1 180702
+7792529ab7a5b32d2a757117fb276e2fc9379d43 180703
+c3ca49a2dc35289c71feeab4372935c89b16ee68 180704
+e09ab2e7f9921fac16f776a7c6300b2605af1055 180705 => dialog pages, line by words
+e3b48aaba99e79290919ab1de6116dc30372db08 180706
+620953954bf15feb1d50045b70bf552c1cda64ab 180706 => re-squashed
+
+ec17f22573696e1fe37c0a041695f56b786598fe 180709 => pre-push
+77ccde2df75998f3c2c8ed1ae0c2292d7b590319 180709 => squashed and pushed
+77ccde2df75998f3c2c8ed1ae0c2292d7b590319 180710
+fdbc9a7c5621a7315aeb38d8bdba945b737d737f 180711
+fdbc9a7c5621a7315aeb38d8bdba945b737d737f 180712
+
+376b17fd5922c7ebc0f54282b072cea94abd60d5 180810
+0428d8da77639808dc7aaa16339176e20187ed0e 180813
+650f5468271c2a29f4e25211621deff77b7ba363 180814
+30c0eed647456c5f82f25ab986ce1dda6df65241 180815 => df8e2ea08c29c1e828c152c747f58bbc7838922e onGetPlayerData from Levy
+3b76b5d0667d885b048c1200fa82eccb576196cd 180816
+b07c84344c921994062d6cedd19a8476e1de9127 180817
+
+a0673d64fda74fce4c35328018273a9deeb6c38e 180820
+c69dc8515a78b1ec0af0a85e62b761884d7515f2 180821
+68c24fa9bae61a9476467b43a50ba19ba5786daf 180823
+32e7d23388502646611f1381c7c41a4eb5be7799 180824 => d2ea22f14a9b8891583e965ee80fb76b5144c083 
+
+38aea61b6854e54b37c8c99bc2043650a5f592c4 180827
+6b3b5dd73939f3ebe9bb6b24a1e5a81021ab0fb8 180828
+a15e15d26c429bef1a21576b55deb248729f49f4 180830
+
+070109fa9b70d331fafea93c3fb0728dff07def7 180904 => fixntcquestui, optimizemapdb
+1f5fc10c1d7723eee069bb32abbedb78508bff8c 180904
+3905d43cdd4609ad7d7ed9614bbb6fbafaa31e91 180905
+a65d56497178ec9d51312e4fa812aab80b24e60d 180907
+
+VILLAGE TUTORIAL 1st ITERATION
+==============================
+520b10c8a9572062313b90ea14c716ebc06d0cb0 180912
+a60869908ea810da6655af4b185fb689fbbfeadc 180913 => cf2a2669d6af95bb7b63b644a569b147ae6c6813 => fake touches
+39ddd3ed83436e90f4c1e4f469bb707ee21bc90f 180913 => circle mask layer repositioned to cover modal popups
+b2e851d19d378f12ef34c7d794e05e5c7ac4b4f5 180914
+d25bef5831a96873413cc3ba937c9a29bb4289df 180917 => 30dc00863634070cb4e215e5e98ec302d649d831 => eekuan's arrow ui
+a1f9c91cfb65bfe7f38a6843d273bb65a857ce3b 180918
+5e7ef6d589d5071acc337426414a74daef1baa95 180919
+dfb40b88f03d46b7c8afb3851e8346286cfd8794 180920 => 0b48b519695577d29e8b40493a50e9d0e3192858 => pushing
+2b892b883305c595ac6328dad46f507b6300e858 180921 => pushed R.8670
+
+VILLAGE TUTORIAL 2nd ITERATION
+==============================
+fd791bc5dfc9f2d7bad16ee93d0145f0cd7b6334 180925
+12ad41ec7c8176ea5b57a31bedb56c9cade914f1 180926
+a96cd5028d6644b2f51d6b0594828b33a2b16c94 180927 => T_10001 and T_10002 both working (with and without circle mask)
+6ee253b686813e88fb7db555a8c36aa4d6fbde4d 180927 => pre-pull svn
+9b14be61643fd8e179517a79ab97fe50934062f5 181001 => transparent touchbox touchthrough, circlemask touchbox not touchthrough
+2da8571301f8e2b004fbe334390757d7fb955a00 181001 => pre-squash => b9f6138dfea3b4e4c82cf0c68fead4108f047930 (squashed)
+64786a8e4519b000f490341997a8b12a7a5d1dde 181002 => show_arrow with windowid
+4c9de141a4e316909f2313ccfc5162bd6ada9061 181003
+0d5d91a1ec2ce4013f65657af4c30aa18e55ca3e 181004 => 9d9f1764ae762f362f124b7c49ab9e37eeac04d5 (pre-push)
+8e222b9bc6b98904d33847b5eccabc46f13205dc 181005 => pushed
+961404b802bb8f4dcb23e8bd11bd049417c7a86b 181005 => evil me >:D force new player to play one stage
+c39c6808e0ff5db187f1ad9ae77d51da0893ee30 181005 => fix note 9 issues
+94d4f6d8660e2b253e3f24ab875757f34bcd979d 181018 => begin help lyon with tutorial data
+4a1fb8007557ce4b98ba1085200914e8ac1fa93b 181019
+9a7cc75c36ec8166b562fdd8b8c61da312c0c6d9 181022 => shits the designer requested
+2370eb25f6979ded98909be5cf33db56ea23a75a 181022 => done all shits designer requested; pre-rebase
+950ab6b2334f7ae934102bdb4141cfaade9cb7e7 181022 => done all shits designer requested; pre-rebase
+8feaa758ba21b4151f696796b4c260ae4e0a89c8 181023
+73bbf54d2afaa08283dc075d68d04f5425a83d93 181030 => post wnr => 942c9abd20e262b8d9f0202c567fcfa579bf815e => fix quest manager anim
+4031f06f16b82e4eaeb156d95550781bc455acae 181031 => fixed quest info local save
+0967a042e45536d1b9f2acd131c59b3d233d1595 181105 => unable to unlock region bug
+9047d13b06f7c94c3c5cbe43481b8d3cf3368ed9 181107 => PartitionObject problem causes unable to unlock region
+4de82a5bf94da4f74648d76ee1a7a6e45d069ffc 181108 => fixed, last good version before norimasa's refactoring, direct on top of 'svn'
+
+dialog position => change from screen coord to 0 - 1
+circle mask position => change to target a particular ui name
+
+CMD VTUTORIAL_SYSTEM START_TUTORIAL T_10001
+CMD VTUTORIAL_SYSTEM CIRCLE_MASK POSITION 100.0f,1050.0f 100.0f 60.0f BLACK => circle quest icon + 60.0f touch radius
+--
+CMD VTUTORIAL_SYSTEM CIRCLE_MASK POSITION 320.0f,400.0f 80.0f 40.0f BLACK
+CMD VTUTORIAL_SYSTEM CIRCLE_MASK POSITION 100.0f,1050.0f 100.0f 60.0f BLACK => circle quest icon
+--
+CMD DIALOG_SYSTEM OPEN_TUTORIAL 1 100340 0.0f,0.0f SAD
+CMD DIALOG_SYSTEM CLOSE_TUTORIAL 1
+CMD VTUTORIAL_SYSTEM SHOW_ARROW POSITION 60.0f,920.0f
+CMD VTUTORIAL_SYSTEM HIDE_ARROW
+CMD CAMERA_SYSTEM MOVE NPC 1 LINEAR 3.0f
+CMD DIALOG_SYSTEM OPEN_TUTORIAL 1 10034 0.2f SAD
+CMD DIALOG_SYSTEM OPEN_BOX 1 10035 0.2f
+CMD DIALOG_SYSTEM OPEN_BOX 1 10036 0.2f
+CMD DIALOG_SYSTEM OPEN_BOX 1 10037 0.2f
+CMD DIALOG_SYSTEM CLOSE_TUTORIAL 1 => CMD DIALOG_SYSTEM CLOSE_BOX (strNpcId)
+CMD CAMERA_SYSTEM MOVE POSITION 6800,5200 LINEAR 5.0f => upon game start if you are nowhere, run this
+
+CMD VTUTORIAL_SYSTEM SHOW_TOUCHBOX POSITION 100.0f,1050.0f 100.0f
+CMD VTUTORIAL_SYSTEM SHOW_TOUCHBOX WINDOWID m_BtnQuest
+CMD VTUTORIAL_SYSTEM START_TUTORIAL T_10010
+CMD VTUTORIAL_SYSTEM START_TUTORIAL T_10020
+CMD CUTSCENE_SYSTEM START_SCENE SC_10001
+CMD VTUTORIAL_SYSTEM SHOW_ARROW WINDOWID m_BtnQuest SOUTH 0.0f,0.0f
+CMD VTUTORIAL_SYSTEM SHOW_ARROW WINDOWID m_PlayButton WEST -20.0f,0.0f
+CMD VTUTORIAL_SYSTEM CIRCLE_MASK WINDOWID m_BtnQuest 100.0f BLACK
+
+CMD VUI_SYSTEM ENTER_GAME 1 1 01_01_01 0 0 0
+CMD VUI_SYSTEM ENTER_GAME 1 2 01_01_02 0 0 0 => CMD VUI_SYSTEM ENTER_GAME (stageType=MAIN:1/SIDE:2/EVENT:3) (stageId) (fileName) (boosterId1) (boosterId2) (boosterId3)
+
+CoordinateUtil::getDeviceSize();
+normal: 512x908 => 0.563876652
+note9: 1080x2009 => 0.537580886
+test: 540x1005
+design: 640x1136
+
+TODO:
+1. touchable layer => mask layer, not touchable, only its specific touchbox
+2. circle mask layer => modal and touchable
+-. duplicate touchBox for circleMask, in circle mask it should be touchable
+-. in touchBox it is not touchable
+
+tbl_player_map_region_data
+iggid BIGINT(20) PK NN
+region_id INT(11) PK NN
+region_state
+
+tbl_player_map_building_data
+iggid BIGINT(20) PK NN
+region_id INT(11) PK NN
+building_id INT(11) PK NN
+selected_skin_id INT(11)
+
+tbl_player_map_skin_data
+iggid BIGINT(20) PK NN
+region_id INT(11) PK NN
+building_id INT(11) PK NN
+skin_id INT(11) PK NN
+skin_state INT(11)
+
+tbl_player_quest_chapter_data
+iggid BIGINT(20) PK NN
+chapter_id VARCHAR(45) PK NN
+chapter_progress INT(11)
+
+tbl_player_quest_completed_data
+iggid BIGINT(20)
+quest_id VARCHAR(45)
+quest_type TINYINT(255)
+quest_state VARCHAR(45)
+
+===============================================
+PRE-PUSH
+ba8b89e863f3ba9421ecf9066a88e61aa0a0792f 180328
+a1b453e545552618ade41f549cd7acb5b187ce90 180329
+===============================================
+POST-PUSH
+15896a76e8f62172c27c15ff6543fb0b06c375a7 180328
+60ad2c6b3769d7948c34c31082229027bd4c8c22 180329
+===============================================
+
+git log -SsystemGestureScale
+6b978d95b521fdae9e1de46b6bce32309d8b1435
+de20d5b9b7dc55929466254d2cebdd6a80d82fe5
+
+3eb434352f185302b3ebf2b38c98e7b2cad0c804 => camera: snap
+
+ZooMessageCenter::getInstance().registerEvent(...);
+
+640x1136 (screen size)
+
+CMD CAMERA_SYSTEM MOVE POSITION 0.0f,0.0f LINEAR 5.0f
+CMD CAMERA_SYSTEM ZOOM 1.0f 5.0f
+CMD CAMERA_SYSTEM FOLLOW NPC 1 1 0 // START FOLLOW
+CMD CAMERA_SYSTEM FOLLOW NPC 1 0 0 // STOP FOLLOW
+
+CMD DIALOG_SYSTEM OPEN_BOX 20005 1 0.8f => CMD DIALOG_SYSTEM OPEN_BOX (nDialogTriggerId) (strNpcId) (secondsPerCharacter)
+CMD DIALOG_SYSTEM OPEN_BUBBLE 20005 1 0.5f => CMD DIALOG_SYSTEM OPEN_BUBBLE (nDialogTriggerId) (strNpcId) (typingSpeed-unused)
+
+CMD ALL_SYSTEM SKIP_EVENTS 1 => pause all systems
+CMD CUTSCENE_SYSTEM SKIP_EVENTS 0 => unpause cutscene system
+
+CMD CAMERA_SYSTEM MOVE WAYPOINT wp_1_2 NA 5.0f => CMD CAMERA_SYSTEM MOVE (TYPE) (OBJ_ID) NA (fDuration)
+CMD CAMERA_SYSTEM ZOOM 2.0f 3.0f => CMD CAMERA_SYSTEM ZOOM (fToScale) (fDuration)
+CMD CAMERA_SYSTEM SET_POS WAYPOINT wp_1_2 => CMD CAMERA_SYSTEM SET_POS (TYPE) (OBJ_ID)
+
+CMD DIALOG_SYSTEM OPEN_BOX 1 1_3 => CMD DIALOG_SYSTEM OPEN_BOX (nDialogTriggerId) (strNpcId)
+CMD DIALOG_SYSTEM OPEN_BUBBLE 2 1_3 => CMD DIALOG_SYSTEM OPEN_BUBBLE (nDialogTriggerId) (strNpcId)
+
+CMD CUTSCENE_SYSTEM START_SCENE 1 => CMD CUTSCENE_SYSTEM START_SCENE (szSceneId)
+
+Ikhwan:
+CMD NPC_SYSTEM(system) MOVE(move npc to the target) 1_3(NPC ID) WAYPOINT(to particluar wappoint) wp_1_1(wappoint id) 2.0f(Speed Multiplier) 
+CMD NPC_SYSTEM(system) SET_POS(Set the npc position directly) 1_3(NPC ID) WAYPOINT(to particluar wappoint) wp_1_1(wappoint id)
+CMD NPC_SYSTEM(system) SET_POS(Set the npc position directly) 1_3(NPC ID) CUTSCENEPOINT(to particluar cutscenepoint) cp_1_1(wappoint id)
+
+LZF:
+CMD MAP_SYSTEM UNLOCK_AREA 1
+CMD MAP_SYSTEM UNLOCK_OBJECT 1_17
+CMD VUI_SYSTEM MSGBOX 1_17 MsgboxSkinChange
+
+Vincent:
+CMD AddStars 50
+
+tstring strText = "Translation_Key";
+tstring translatedText;
+AmcRichLabel::getTranslatedText(strText, translatedText);
+
+2a4e7a3 [zoo] camera: zoom snap disable snap content [wip]
+98355be [zoo] camera: zoom snap debug in progress
+058eeef [zoo] data: cutscene configurations
+3d88a95 [zoo] data: configure cutscene for the quests
+e3a2d74 [zoo] camera: notify process ended
+aa12592 [zoo] docs: documentation for close dialog command
+d01c321 Merge branch 'dialog' into develop
+e9b82d6 [zoo] dialog: test data for dialog intercepted during cutscene
+b0ffff3 [zoo] dialog: support for close dialog
+cedcfaa [zoo] camera: zoom limit of 75% to 150%
+
+Dialog:
+1. Does the dialogue arrow need to be tracked in real time as it is now designed - Hakim - done
+2. The text of the conversation needs to support discoloration and font switching - Hakim - done
+3. Fonts need at least wave and dithering effects - Hakim
+
+How to build protobuf for zk:
+=============================
+1. Edit your proto located on {PROJ_ROOT}/protocol/Common
+2. Run the scripts under {PROJ_ROOT}/server/Tools/protoc-2.6.1-win32/GenProtocolProj.bat => to generate server project C++ files
+3. Run the scripts under {PROJ_ROOT}/server/Tools/protoc-2.6.1-win32/GenProtocolProj.bat => to generate server project C++ files
+
+CharElementParser::parse
+ImageElementParser::parse
+RichLabelParserMgr::findParser
+-> font : font_id, size, color
+-> image : id (piece-info), scale, width, height
+eg:
+<font font_id="default" size="30" color="cs_red">HUMAN?!</font>
+<image id="5color" scale="1" width="67" height="67"></image>
+
+
+Camera system:
+180528:
+1. 4 types of camera move effects: LINEAR, EASE_IN only, EASE_OUT only, EASE_IN_OUT
+
+180604:
+1. camera follow npc maintain current offset instead of center npc
+2. camera move with shake
+
+180525:
+1. camera follow (npc, etc)
+pending:
+1. camera move with ease in/out details
+2. camera shake
+3. camera zoom, if start zoom is within threshold, just set directly and return
+
+1. Provide white fade-in, fade-out lens effects - Hakim - B
+2. Provide horizontal and vertical lens effects - Hakim - B
+3. Provide the lens to follow and finish the effect of following the NPC - Hakim - B
+4. Provide a lens to mimic the effects of full-screen UI (and corresponding animation) - Hakim -> A
+5. In the configuration file, you can set 1) the maximum trigger distance 2) the lens movement speed, used to trigger the need for black fading and jump lens when the current lens position principle cutscene start position
+
+after talk with designer, all the jira requirement will be create trom them for easy tracking, i just list all the missing funtion to them for reference
+为了方便理解，我这里用中文详细说明目前对应各系统GDD我们PG Side还没有完成的任务
+cutscene系统
+1.在配置文件中，可以设置1）最大触发距离 2）镜头移动速度，用来触发当当前镜头位置原理cutscene开始位置时，需要用黑色渐隐渐出并跳转镜头的需求 --Hakim
+2.cusecen开始、结束时，主屏的Lobby UI需要有渐出、渐入效果 --LZF
+3.右上角（暂定）弹出通知需要支持1）新的任务解锁 2）新的动物解锁 3）新的系统功能解锁 --Vincent
+4.cutscene（VUI System）需要支持打开任意UI并且阻塞玩家操作的功能  --LZF
+
+Dialog 系统：
+1.对话箭头是否需要如现在设计的做到实时方向跟踪 -- Hakim
+2.对话的文字需要支持变色和字体切换 -- Hakim
+3.字体需要至少波浪和抖动效果 -- Hakim
+
+camera 系统：
+1.提供白色渐入、渐出的镜头效果 -- Hakim
+2.提供横向和纵向的镜头整栋效果 -- Hakim
+3.提供镜头开始跟随、结束跟随NPC的效果 -- Hakim
+4.提供镜头模仿全屏UI（以及对应动画）的效果 -- Hakim
+
+npc 系统：
+1.在cutscene中可以创建、删除只用于cutscene的NPC -- Egg
+2.在cutscene中，NPC可以更改皮肤，并且在cutscne结束后，回到原来的皮肤 -- Egg
+3.功能NPC的气泡文字，需要有特殊的逻辑处理（比如，每天只弹出一次） -- Egg
+4.触发Cutscene时，正好NPC处在Cutscene屏幕内的非指定位置，将会产生传送的表现，需要设定一个固定的消失和出现的表现。 -- Egg
+
+任务系统：
+1.支线任务友好度全满之后，需要经历（气泡-》表情-》金币获取）行为序列的表现 --vincent
+
+Waypoint System：
+1.处理当前多个Active任务是，路线选择问题 -- Maji
+2.支持每个路径节点能够设置概率来决定事件播放的功能（需优化） -- Maji
+3.调整Waypoint 数据配置字段的命名规则（需策划整体讨论） == Maji
+
+
+bool CameraSystem::onUpdateFollowObjTimeline(float dt)
+{
+	Vector2 vSourcePos = getCameraPos();
+	Vector2 vTargetPos = vSourcePos;
+	Vector3 vScale = m_pTargetWindow->getScale();
+	Vector3 vOffset = m_pTargetWindow->getSize();
+
+	vTargetPos = DataCenter::getInstance().getPositionByNPCId(m_strFollowObjId);
+	Vector3 vTempTarget = Vector3(vTargetPos.x, vTargetPos.y, 0.0f);
+	vTempTarget = (m_pTargetWindow->getLocalToWorldTransform() * vTempTarget) / vScale;
+	vTargetPos.x = -vTempTarget.x;
+	vTargetPos.y = -vTempTarget.y;
+
+	// move target to center of viewport
+	Vector3 vOffsetWorld = (m_pTargetWindow->getLocalToWorldTransform() * (vOffset / 2.0f));
+	vTargetPos.x += (vOffsetWorld.x / vScale.x);
+	vTargetPos.y += (vOffsetWorld.y / vScale.y);
+
+	setposCamera(vTargetPos);
+
+	return true;
+}
+10034: There is a glass in the pantry, half of it is filled with water, the game designer comes in and says, "the glass is half-full", the project manager then comes in and argue, "the glass is half-empty", the programmer then comes in, replace the glass with a smaller one and says, "the glass is twice as large as necessary". Once upon a time, Microsoft SQL Server, MySQL and Oracle walked into NoSQL bar, a little while later... they walked out, because they couldn't find a table. A programmer's wife send him to the grocery store, her instructions are, "Buy butter, see if they have eggs, if they do, buy 10", what do you think is the programmer going to buy? "10 eggs". A programmer got stuck in the shower because the instructions on the shampoo bottle said, "Lather, Rinse, Repeat". Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.
+
+index 095: \n
+10035: "A defendant isn’t happy with  how things are going in court, so he gives the judge a hard time.
+
+Judge: “Where do you work?
+”
+Defendant: “Here and there.
+”
+Judge: “What do you do for  a living?
+”
+Defendant: “This and that.”
+
+Judge: “Take him away.”
+
+Defendant: “Wait; when will I get out?”
+
+Judge: “Sooner or later.”"
+
+
+CMD DIALOG_SYSTEM OPEN_BOX 10034 1 0.1f
+CMD DIALOG_SYSTEM OPEN_BOX 10035 1 0.1f
+CMD DIALOG_SYSTEM OPEN_BOX 10036 1 0.1f
+CMD DIALOG_SYSTEM OPEN_BOX 10037 1 0.1f
+CMD DIALOG_SYSTEM OPEN_BOX 20005 1 0.1f
+CMD CAMERA_SYSTEM MOVE WAYPOINT wp_1_4 GUANZONG1 120.0f
+CMD CAMERA_SYSTEM MOVE WAYPOINT wp_1_4 GUANZONG1 3.0f
+CMD CAMERA_SYSTEM MOVE WAYPOINT wp_1_4 GUANZONG2 3.0f
+CMD CAMERA_SYSTEM MOVE WAYPOINT wp_1_4 GUANZONG3 3.0f
+
+CMD CAMERA_SYSTEM MOVE POSITION 0.0f,0.0f LINEAR 5.0f
+CMD CAMERA_SYSTEM ZOOM 1.0f 5.0f
+CMD CAMERA_SYSTEM FOLLOW NPC 1 1 0 // START FOLLOW
+CMD CAMERA_SYSTEM FOLLOW NPC 1 0 0 // STOP FOLLOW
+
+CMD DIALOG_SYSTEM OPEN_BOX 20005 1 1.0f
+CMD DIALOG_SYSTEM OPEN_BUBBLE 20005 1 0.5f
+
+CMD DIALOG_SYSTEM OPEN_FLOAT 20002 1
+
+GameServer
+==========
+void AmcPlayerMgr::CreateUpdatePlayerDataToDBQuery(int64 iggid, const MsgPB::MsgPlayerData& playerData, shared_ptr<db::SqlQueryList> queryList)
+
+void AmcPlayerMgr::OnReceivePlayerMsg(google::protobuf::Message& msg, MsgPB::EMsgType msgType, bool isClientMsg,
+	bool transferMsgOnly, int sock, int64 msgRoute)
+void AmcPlayerMgr::OnReceivePlayerClientMsg(google::protobuf::Message& msg, MsgPB::EMsgType msgType, int sock)
+MsgSyncPlayerDataWithGSReq
+bool AmcPlayer::GetPlayerData(MsgPB::MsgPlayerData& dataTo, int syncType, int dirtyType, bool isForceGetData) => containsDirty will be false in OnGetPlayerData call
+
+Client - heartbeat
+==================
+void AmcPlayerEx::sendMsg(MsgPB::EMsgType type, const google::protobuf::Message& msg, bool isUiLock) => heart beat
+void AmcPlayerEx::sendSyncMsgToServer() => force send now
+
+class SkinData : public VillageDataStore => int m_ID, int m_state
+class BuildingData : public VillageDataStore => int m_ID, int m_state, int m_skinID, map<int, SkinData>
+class NpcData : public VillageDataStore => int m_ID, int m_state, int m_skinID, map<int, SkinData>
+class QuestRecordData : public VillageDataStore => int m_iID, int m_iState
+class PlayerQuestData : public VillageDataStore => tstring m_strChapterId, int m_iProgress, vector<tstring> m_vectCompletedQuest, vector<tstring> m_vectCompletedSubQuest
+class RegionData : public VillageDataStore => int m_regionID, int m_state, map<int, BuildingData>
+
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `add_country`()
+BEGIN
+ALTER TABLE `testingdb`.`testingtable` ADD COLUMN `country` VARCHAR(45) NULL DEFAULT NULL  AFTER `city` ;
+END
+
+-- how to call it
+call add_country();
+
+truncate table amc_game.tbl_item_data;
+truncate table amc_game.tbl_item_purchase_data;
+truncate table amc_game.tbl_player_data;
+truncate table amc_game.tbl_player_ext_data;
+truncate table amc_game.tbl_player_map_building_data;
+truncate table amc_game.tbl_player_map_region_data;
+truncate table amc_game.tbl_player_map_skin_data;
+truncate table amc_game.tbl_player_quest_chapter_data;
+truncate table amc_game.tbl_player_quest_completed_data;
+
+-- ---------------------------------------------------------------------------------
+-- ZK - Create DB Alternation Script
+-- Note: comments before and after the routine body will not be stored by the server
+-- ---------------------------------------------------------------------------------
+
+to generate db script, rename server\DB_Scripts 
+
+generate-db-alternation-script.sample.bat -> generate-db-alternation-script.bat
+generate-full-db-schema.sample.bat -> generate-full-db-schema.bat
+
+and fix the content about db connection string
+
+after you fix it, run generate-all.bat, it'll generate script on server\DB_Scripts\#GeneratedDBScripts\
+
+Hakim: Hi Levy, upon login, only onGetPlayerData will be called, that means, only client will send data to the server?
+onUpdatePlayerData is not called, so server doesn't send to client?
+or do I miss anything...? there are SELECT * queries on server called though
+Levy: the only case for triggering onUpdatePlayerData() is when data is conflicted, and you want to use server's to overwrite all clients 
+login process when player login to server
+1. first: server will get all player data from DB
+2. client will upload all data to server
+3. server will compare and merge data
+4. after that, server will write back different data to DB
+Hakim: I have empty client, and server send a lot of existing data, but onUpdatePlayerData is also not called
+Levy: you have to have "conflicted" and when you choose "overwrite data" the OnUpdatePlayerData is triggered
+open your player save data, and change your decive key to any another number
+and next time when you login, you will receive a conflict message box
+I use the device key to detect do you use another device to play the game with the same account
+
+UNITY3D:
+========
+Guavaman's rewired => joystick library, support hot plugging => USD 45
+Gallant Games's InControl => input library seems inferior to rewired
+
+SVN KNOWHOW:
+============
+svn:ignore is set per directory, it is added as properties
+to edit:
+svn propedit svn:ignore . --editor-cmd vi
+to view:
+svn proplist -v .
