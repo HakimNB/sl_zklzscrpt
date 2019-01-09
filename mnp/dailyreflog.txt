@@ -2,6 +2,7 @@
 8173e4a7566c9dab9c3e5a6d488d3f293d35b501 190104 => xls importer committed @[ee7d514e9d5087995af988060a76dc04aef49715] 
 46e5a5a354c3832f3c9b047e424ecc48aa0d47ad 190107
 0b9dd198da306c7e98c8401fd0f575fba0d53074 190108 => subskill excel
+20b9480f48e8f07ab9e55f255512df825255ad7a 190109 => skill diagram
 
 https://stackoverflow.com/questions/37738346/how-can-i-change-the-default-particle-in-unity-3d
 https://answers.unity.com/questions/411601/change-the-color-of-a-material-for-only-one-object.html
