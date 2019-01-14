@@ -5,6 +5,7 @@
 20b9480f48e8f07ab9e55f255512df825255ad7a 190109 => skill diagram
 3ff22d656a684fa6b72bf5c79ca90cdf77c70f42 190110 => skill instantiation
 3e1eab7f21d3b8e220db7590b06efaae8050d18d 190110 => skill system flow
+ef9fa8def2bb15886e5d0f62216b6a53e7111220 190114 =>
 
 https://stackoverflow.com/questions/37738346/how-can-i-change-the-default-particle-in-unity-3d
 https://answers.unity.com/questions/411601/change-the-color-of-a-material-for-only-one-object.html
@@ -19,7 +20,7 @@ https://unitylist.com/p/28t/Unity-excel-importer
 https://support.office.com/en-us/article/create-a-drop-down-list-7693307a-59ef-400a-b769-c5402dce407b
 https://www.excel-university.com/select-drop-down-item-vlookup-return-multiple-attributes/
 
-Hakim:
+Hakim: 190107
 Skill Class Design:
 n	Work with Kenny  to come up with the first pass of the class design(Points: 5)
 Skill Parsing Format Design
@@ -29,3 +30,31 @@ n	Must be reusable across all skill system from weapons to accessories and hero 
 n	Must be able to have the scene to test the skills in the test scene (Points: 5)
 Skill Designer Excel Parsing And Reading Into Engine.  (Points: 5)
 n	Must be able to load the designer excel file and create skills in the game (Points: 5)
+
+Hakim: 190114
+=============
+SLG System: Second Pass of SLG System: (Points: 8) => Point 13
+    Work with chjia mean to map out the building system
+SLG System: Integrate Vincent SLG Demo: (Points: 8)
+    Integrate the 3D SLG scene
+    Make prefabs for buildings
+SLG System: Basic Player Data Class Design: (Points: 3)
+    Must be able to have Resources
+    Must be able to have Experience
+    Must be able to have Resource Cap Values
+SLG System: Basic Player Data Class Implementation: (Points: 5)
+    Must be able to see the values based on the player data
+SLG System: Collection Buildings: (Points: 5)
+    Buildings must be able to generate resource
+    You must be able to click the resource
+    
+SLG System: Crafting Buildings: (Points: 5)
+    Must be able to pop up UI
+SLG System: Storage Buildings: (Points: 5)
+    Must be able to increase the cap of resource production
+SLG System: SLG Camera System: (Points: 13)
+    Follow Vincents Camera
+    Build a better structure for different camera configurations for testing
+SLG System: Buildings Must be able to upgrade: (Points: 5)
+    Buildings must upgrade by specified times
+    Follow the skin system by chjia mean to change the buildings skin depending on their levels
