@@ -6,6 +6,10 @@
 3ff22d656a684fa6b72bf5c79ca90cdf77c70f42 190110 => skill instantiation
 3e1eab7f21d3b8e220db7590b06efaae8050d18d 190110 => skill system flow
 ef9fa8def2bb15886e5d0f62216b6a53e7111220 190114 =>
+e90a00c6d4ec1b76148ac138c5cebc6f6fc87990 190115 => building game objects
+dfa96e45de94908dff2eddf871e1f0519db91a01 190116 => farm building
+941fd61fb8360343dfa87760537e47522fc1c56e 190116 => collectible, loadable and savable
+472245cd718c65572e80ca15c9fd3e3404aade29 190117 => pre-start skill work
 
 https://stackoverflow.com/questions/37738346/how-can-i-change-the-default-particle-in-unity-3d
 https://answers.unity.com/questions/411601/change-the-color-of-a-material-for-only-one-object.html
@@ -47,7 +51,7 @@ SLG System: Basic Player Data Class Implementation: (Points: 5)
 SLG System: Collection Buildings: (Points: 5)
     Buildings must be able to generate resource
     You must be able to click the resource
-    
+
 SLG System: Crafting Buildings: (Points: 5)
     Must be able to pop up UI
 SLG System: Storage Buildings: (Points: 5)
