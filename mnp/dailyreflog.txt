@@ -10,6 +10,7 @@ e90a00c6d4ec1b76148ac138c5cebc6f6fc87990 190115 => building game objects
 dfa96e45de94908dff2eddf871e1f0519db91a01 190116 => farm building
 941fd61fb8360343dfa87760537e47522fc1c56e 190116 => collectible, loadable and savable
 472245cd718c65572e80ca15c9fd3e3404aade29 190117 => pre-start skill work
+319a2c4306b95304bb5ff57d2a57f7b507aadd93 190118 => skill combat integration
 
 https://stackoverflow.com/questions/37738346/how-can-i-change-the-default-particle-in-unity-3d
 https://answers.unity.com/questions/411601/change-the-color-of-a-material-for-only-one-object.html
